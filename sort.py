@@ -1,4 +1,4 @@
-import os, pathlib, shutil, re, random, argparse, sys
+import os, pathlib, shutil, re, random, argparse
 
 # path = r"C:\Users\jp120\Desktop\Bałagan"
 path = argparse.ArgumentParser()
@@ -134,6 +134,6 @@ def unpack_archives(path):
             os.remove(str(archive))
 
 
-create_balagan(path, list_of_ext)
+# create_balagan(path, list_of_ext)
 
 sort(path)
